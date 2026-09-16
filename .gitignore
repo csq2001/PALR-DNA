@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# PyTorch (publish only the two named checkpoints below)
+*.pth
+
+# VSCode
+.vscode/
+
+# Outputs
+outputs/*
+!outputs/checkpoints/
+outputs/checkpoints/*
+!outputs/checkpoints/AE.pth
+!outputs/checkpoints/DLRT.pth
+!outputs/codebook/
+outputs/codebook/*
+!outputs/codebook/7nt_byte_codebook.json
+
+# Dataset images (keep documentation and exact paper splits)
+data/*
+!data/README.md
+!data/splits/
+
+# Logs
+*.log
