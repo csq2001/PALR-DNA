@@ -1,4 +1,4 @@
-# AE-DLRT DNA Image Storage
+# PALR-DNA: A Probability-Aware Latent Recovery Framework for Error-Resilient Image Storage in DNA
 
 Research code for storing an image as DNA strands and recovering it after simulated substitution, insertion, and deletion errors:
 
